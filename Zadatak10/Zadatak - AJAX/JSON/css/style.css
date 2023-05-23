@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+#svikorisnici::after{
+	content:"";
+	clear: both;
+	display: block;
+}
+
+.galerija{
+	padding: 5px;
+	float: left;
+    width: 50%;
+    min-height: 270px;
+}
+
+.galerija div{
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 5px;
+}
+
+.galerija div img{
+	height: 120px;
+	object-fit:scale-down;
+}
+
+.galerija div span{
+    display: block;
+	padding: 10px;
+    text-align: center;
+}
+
+@media (min-width:1100px){
+	 .galerija{
+		width: 25%;
+	}
+}

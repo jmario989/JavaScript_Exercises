@@ -1,0 +1,23 @@
+1. Napišite modul za brojanje broja koraka. Modul će se brinuti o povećanju broja koraka, a izvana će se moći pristupiti dvjema metodama modula: walk() i getTotalSteps(). Modulu dodijelite željeni imenski prostor.
+
+Opis modula:
+ - privatno svojstvo
+	steps = 0
+ 
+ - privatna metoda
+	increaseSteps(){
+		// za jedan uvećava vrijednost svojstva steps
+	}
+ 
+ - javne metode
+	getTotalSteps(){
+		// vraća vrijednost svojstva steps
+	}
+
+	walk(){
+		// poziva privatnu metodu increaseSteps()
+	}
+	
+Testirajte rad modula tako da pomoću poziva javnih metoda uvećate broj koraka te nakon toga u konzoli ispišete dobiveni broj koraka.
+	
+2. Exportajte modul iz datoteke.

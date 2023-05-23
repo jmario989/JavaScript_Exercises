@@ -1,0 +1,4 @@
+1. Instalirajte Jest framework (pratite upute ovdje: https://jestjs.io/docs/en/getting-started)
+2. Dodajte test naredbu u package.json
+3. Napišite test koji testira kod u script.js. Iskoristite bar dvije funkcije podudarnosti (u test skripti definirajte niz od nekoliko elemenata te ga iskoristite kao argument funkcije čiji rad testirate).
+4. U slučaju da test ne prolazi, ispravite grešku i ponovite test dok ne prođe!

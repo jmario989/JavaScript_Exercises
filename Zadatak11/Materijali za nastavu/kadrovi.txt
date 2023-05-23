@@ -1,0 +1,14 @@
+// translateY
+{value: 50, duration: 500},
+{value: 0, duration: 500, delay: 1500},  
+{value: -53, duration: 500, delay: 500},
+{value: 0, duration: 500, delay: 2500},
+{value: 50, duration: 500, delay: 500},
+{value: 0, duration: 500, delay: 1500}
+
+
+// translateX
+{value: 53, duration: 500, delay: 1000},
+{value: 0, duration: 500, delay: 2500},
+{value: -53, duration: 500, delay: 500},
+{value: 0, duration: 500, delay: 2500}

@@ -1,0 +1,5 @@
+XML
+http://frodo.ess.hr/api/svi-filmovi.php
+
+JSON
+http://frodo.ess.hr/api/filmovi-po-nazivu-json.php?pojam=
