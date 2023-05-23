@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animacije</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
+</head>
+<body onload="promijeniSliku(); slideshow()">
+    <header>
+        <h1>Primjena DOM-a - izrada animacija</h1>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h3>Slideshow s navigacijom</h3>
+                <div class="roditelj">
+                    <div class="slike fade">
+                        <div class="brojslike">1 / 3</div>
+                        <img src="slike/slika1.jpg" />
+                        <div class="podnaslov">Slika 1</div>
+                    </div>
+
+                    <div class="slike fade">
+                        <div class="brojslike">2 / 3</div>
+                        <img src="slike/slika2.jpg" />
+                        <div class="podnaslov">Slika 2</div>
+                    </div>
+
+                    <div class="slike fade">
+                        <div class="brojslike">3 / 3</div>
+                        <img src="slike/slika3.jpg" />
+                        <div class="podnaslov">Slika 3</div>
+                    </div>
+
+                    <a class="prijasnji" onclick="pomak(-1)">&#10094;</a>
+                    <a class="sljedeci" onclick="pomak(1)">&#10095;</a>
+                </div>
+                <br/>
+                <div id="navigacija">
+                    <span class="tocke" onclick="trenutni(1)"></span> 
+                    <span class="tocke" onclick="trenutni(2)"></span> 
+                    <span class="tocke" onclick="trenutni(3)"></span> 
+                </div>
+            </article>
+            <article>
+                <h3>Automatizirani slideshow</h3>
+                <div class="roditelj">
+
+                    <div class="slike2 fade">
+                        <div class="brojslike">1 / 3</div>
+                        <img src="slike/slika1.jpg" />
+                        <div class="podnaslov2">Slika 1</div>
+                    </div>
+
+                    <div class="slike2 fade">
+                        <div class="brojslike">2 / 3</div>
+                        <img src="slike/slika2.jpg" />
+                        <div class="podnaslov2">Slika 2</div>
+                    </div>
+
+                    <div class="slike2 fade">
+                        <div class="brojslike">3 / 3</div>
+                        <img src="slike/slika3.jpg" />
+                        <div class="podnaslov2">Slika 3</div>
+                    </div>
+                <br/>
+                </div>
+                <div id="navigacija2">
+                    <span class="tocke2" ></span> 
+                    <span class="tocke2" ></span> 
+                    <span class="tocke2" ></span> 
+                </div>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
