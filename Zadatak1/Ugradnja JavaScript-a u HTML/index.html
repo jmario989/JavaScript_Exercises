@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ugradnja JS-a u HTML</title>
+    <!-- deklaracija funkcije koja se poziva klikom na gumbić (linijski zapis) -->
+    <script>
+        function datum(){
+            alert("Trenutni datum i vrijeme: " + Date());
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Ugradnja JavaScript koda u HTML</h1>
+    </header>
+    <main>
+        <!-- poziv funkcije koja rukuje događajem -->
+        <button type="button" onclick="datum()">Datum i vrijeme</button>
+
+        <!-- linijski zapis (inline) -->
+        <!--
+        <script>
+            alert("Trenutni datum i vrijeme: " + Date());
+        </script>
+        -->
+    </main>
+    <!-- poziv vanjske .js datoteke -->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+1. Napišite JavaScript funkciju koja prihvaća zadani niz kao argument i pronalazi najdužu riječ unutar niza.
+2. Vratite tu riječ iz funkcije i spremite u varijablu.
+3. Ispišite vrijednost varijable u konzoli.
+
+
+
+var rijeci = ['quickest', 'brown', 'fox', 'jumps', 'over', 'the', 'lazy', 'dog'];

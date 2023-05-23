@@ -1,0 +1,6 @@
+U skripti deklarirajte varijablu te joj dodijelite znakovni niz jednak vašem imenu i prezimenu.
+Koristeći svojstva i metode rada nad stringovima učinite sljedeće:
+  1. Ispišite broj znakova vašeg imena i prezimena
+  2. Ispišite prvo slovo imena
+  3. Ispišite samo prezime
+  4. Ispišite podatke u sljedećem formatu: Ime-Prezime

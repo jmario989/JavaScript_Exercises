@@ -1,0 +1,9 @@
+1. Kreirajte objekt koji reprezentira neki specifični automobil, s barem 8 svojstava, od kojih su 3 metode (npr. ubrzaj, zakoci itd.), a jedno svojstvo je također objekt. Probajte referencirati druge vrijednosti objekta u metodama. Svaka metoda mora primati argumente i vraćati neku vrijednost.
+
+2. Pozovite metode svog objekta s argumentima i ispišite rezultat.
+
+3. S petljom pristupite svim brojivim svojstvima vašeg automobila objekta i ispiši vrijednosti u konzoli zajedno sa njihovim nazivima (kljucevima) (npr. ime: Ivan)
+
+4. Ispišite u konzoli razumljivu rečenicu koja uključuje barem 2 svojstva vašeg objekta.
+
+5. Pretvorite svoj objekt u JSON string.
